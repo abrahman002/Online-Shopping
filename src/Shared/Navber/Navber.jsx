@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navber = () => {
     return (
         <div>
-            <div className="navbar bg-base-100 shadow-md lg:px-20 sticky top-0">
+            <div className="navbar bg-base-100 shadow-md lg:px-20 ">
                 <div className="flex-1">
-                    <a className="  text-md font-semibold  "> Shopping </a>
+                    <Link className='text-xl font-semibold' to='/'>Supper Shop</Link>
                 </div>
 
                 <div className="flex-none">
