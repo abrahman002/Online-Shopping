@@ -1,10 +1,9 @@
 import React from 'react';
-import './gender.css'
 import { Link } from 'react-router-dom';
 
 const GenderGroup = () => {
     return (
-        <div className='lg:grid grid-cols-3 lg:p-10 p-5 lg:ml-20 ml-10  mt-10  '>
+        <div className='lg:grid grid-cols-3 lg:p-10 p-5 lg:ml-20 ml-10  mt-10'>
             <div className="hero w-[300px] h-[400px] mb-10 " style={{ backgroundImage: 'url(https://i.pinimg.com/originals/87/a7/6c/87a76c1fb8a2fcfaae0863980933e40b.jpg)' }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
